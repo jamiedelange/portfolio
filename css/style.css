@@ -159,6 +159,12 @@ nav a:last-child {
 }
 .about p {
     margin-bottom: 20px;
+    color: var(--quarternary-color);
+}
+.about h3, span {
+    background-color: var(--quarternary-color);
+    color: var(--secondary-color);
+    border-radius: 3px;
 }
 .page-wrapper {
     max-width: 88%;
@@ -170,6 +176,8 @@ nav a:last-child {
 
 .work {
     background-color: var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
 }
 .work a {
     text-decoration: none;
@@ -181,8 +189,7 @@ nav a:last-child {
     text-decoration: none;
     color: var(--quarternary-color);
     font-weight: lighter;
-    font-size: 2.2vw;
-    
+    font-size: 2.2vw;    
 }
 .grid-container {
     display: grid;
@@ -201,7 +208,7 @@ nav a:last-child {
     border: 3px solid var(--tertiary-color);
     border-radius: 5px;
     font-size: 2vw;
-    background-image: url("../images/marmot.jpeg");
+    background-image: url("../images/run-buddy-img.png");
     background-position: center;
     background-size: cover;
     opacity: 0.7;
@@ -217,13 +224,8 @@ nav a:last-child {
 .grid-item div {
     padding: 5px 10px;
 }
-.item-1 {
-    grid-column-start: 1;
-  grid-column-end: 3;
-}
 .grid-item:nth-child(1) {
     grid-column: span 8;
-    grid-row: span 2;
 }
 
 .page-section {
@@ -326,9 +328,13 @@ nav a:last-child {
     .grid-item, .grid-item:nth-child(1) {
         grid-column: 1 / -1;
     }
+    .contact h2 {
+        padding: 15px;
+    }
     .contact address {
         flex-direction: column;
         align-items: flex-start;
+        padding: 15px;
     }
     .about {
         padding: 15px;
