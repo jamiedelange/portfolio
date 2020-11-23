@@ -208,9 +208,6 @@ nav a:last-child {
     border: 3px solid var(--tertiary-color);
     border-radius: 5px;
     font-size: 2vw;
-    background-image: url("../images/run-buddy-img.png");
-    background-position: center;
-    background-size: cover;
     opacity: 0.7;
     transition: 0.5s;
     min-height: 50px;
@@ -226,6 +223,21 @@ nav a:last-child {
 }
 .grid-item:nth-child(1) {
     grid-column: span 8;
+}
+#card1 {
+    background-image: url("../images/run-buddy-img.png");
+    background-position: center;
+    background-size: cover;
+}
+#card2 {
+    background-image: url("../images/hike-now-ss.png");
+    background-position: center;
+    background-size: cover;
+}
+#card3 {
+    background-image: url("../images/weather-boss.png");
+    background-position: center;
+    background-size: cover;
 }
 
 .page-section {
@@ -310,8 +322,9 @@ nav a:last-child {
     .about {
         padding: 15px;
     }
-    .about h2{
+    .about h2 {
         font-size: 5vw;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -339,7 +352,7 @@ nav a:last-child {
     .about {
         padding: 15px;
     }
-    .about h2{
+    .about h2 {
         font-size: 5vw;
     }
 }
