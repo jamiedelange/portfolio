@@ -175,7 +175,7 @@ nav a:last-child {
     color: var(--quarternary-color);
 }
 .about h3, span {
-    color: var(--secondary-color);
+    color: black;
     border-radius: 3px;
 }
 .page-wrapper {
